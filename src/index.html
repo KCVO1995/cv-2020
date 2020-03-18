@@ -97,7 +97,6 @@
       right: 0;
     }
   </style>
-
   <style>
     .projects {}
 
@@ -129,11 +128,8 @@
     }
   </style>
   <style>
-    .skills {}
-
     #skills {
-
-      width: 500px;
+      width: 450px;
       height: 270px;
     }
 
@@ -218,9 +214,6 @@
       margin-left: auto;
     }
   </style>
-
-
-
   <style>
     @media (max-width: 500px) {
       body {
@@ -243,12 +236,14 @@
       #skills {
         width: auto;
       }
-      .jobs header{
+
+      .jobs header {
         flex-direction: column;
       }
-      .jobs header >h3,
-      .jobs header >h4,
-      .jobs header >span {
+
+      .jobs header>h3,
+      .jobs header>h4,
+      .jobs header>span {
         margin: 0;
       }
     }
@@ -258,129 +253,109 @@
 <body>
   <article>
     <section class="bio">
-      <h1>方应杭</h1>
-      <img src="https://pic2.zhimg.com/v2-d206f673b1e7b8a7e3b31bc8041e05e2_xll.jpg" alt="" width="100" height="100">
+      <h1>李彦辉</h1>
+      <img src="./images/img.jpg" alt="" width="80px">
       <p>
-        男 | 30岁 | 前端开发工程师 | 杭州
+        男 | 25岁 | 前端开发工程师 | 广州
       </p>
       <p>
-        手机：13812345678 | 微信：frank_fang | 邮箱：fangyinghang@foxmail.com
+        手机：13662463430 | 微信：KCVO1995 | 邮箱：943514589@qq.com
       </p>
     </section>
-
-
-
-
-
-
     <section class="projects">
       <h2>项目经历</h2>
       <ol>
         <li>
           <header>
-            <h3>谷UI</h3>
+            <h3>Clock UI</h3>
             <span>
-              <a href="#">源码链接</a>
+              <a href="https://github.com/KCVO1995/clock-ui-yarn" target="blank">源码链接</a>
               <a href="#">项目预览</a>
             </span>
           </header>
+          <img src="./images/ui.png" width="600px" class="view" style="margin: 0 auto;display: block;">
           <p>
-            一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
-
+            一款基于 <strong>Vue</strong> 的 UI 框架。
           </p>
           <p>
-            主要组件有日期选择器、弹出框、<strong>下拉更新</strong>、树形选择器等。
-
-          </p>
-          <p>
-            已被公司前端同事广泛使用，有效提高前端团队的开发效率。
-
-          </p>
-          <p>
-            制作过程让我对 TypeScript 和单元测试有了新的认识。
-            我将其总结成了一篇博客《TS 泛型的使用》。
+            参考了 <strong> UI、 Ant Design、Bootstrap </strong> 等优秀 UI 框架,
+            从用例分析开，提供了包括按钮、输入框、网格系统、默认布局、弹出信息、标签、气泡卡片和折叠面板等多个常用组件，组件提供多种 <strong>自定义属性</strong> ,
+            比如自定义气泡卡片的触发方式、标签的排列方向、折叠面板的显示方向等，用户可以 <strong>按需引入</strong>。此外，本框架除了考虑了自身组件在PC 端和
+            移动端的样式逻辑之外，还提供了 <strong>响应式的网格系统</strong>。本项目，使用 <strong>Sass</strong> 编写默认样式，引入
+            <strong>Mocha、Chai、Sino</strong>, 编写单元测试, <strong>Travis
+              CI</strong> 进行持续集成，最后使用 <strong>npm</strong> 发布组件，<strong>vuepress</strong> 编写官网。
           </p>
         </li>
         <li>
           <header>
-            <h3>写代码啦.com</h3>
+            <h3>米奇记账</h3>
             <span>
-              <a href="#">源码私有</a>
-              <a href="#">项目预览</a>
+              <a href="https://github.com/KCVO1995/money" target="blank">源码链接</a>
+              <a href="https://kcvo.top/morney-website/#/" target="blank">项目预览</a>
             </span>
           </header>
+          <div style="display: flex;justify-content: center;">
+            <img src="./images/money1.png" width="150px" class="view" style="display: block;">
+            <img src="./images/money2.png" width="150px" class="view" style="display: block;">
+            <img src="./images/money3.png" width="150px" class="view" style="display: block;">
+            <img src="./images/money4.png" width="150px" class="view" style="display: block;">
+          </div>
           <p>
-            这是一个基于 <strong>Rails</strong> 和 <strong>Vue</strong> 的多页面应用。
+            一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
           </p>
           <p>
-            主要功能包括微信登录、手机验证、直播、点播、反盗版、答题系统、课程管理系统等。
-            从数据库设计到前端展示，都是由我主导，另有两名前端辅助我。
-          </p>
-          <p>
-            该系统<strong>大幅提高教学效率</strong>，优化教学流程，受到公司和用户的好评。
+            简约的 UI 设计，支持账目增删改查，标签管理及新建，数据直观显示，支持按月、按周、按天展示。项目使用 <strong>Vue Cli</strong> 搭建，通过 <strong>Vue
+              Router</strong> 来进行页面的跳转，并带有生动的过渡效果。使用 <strong>Vuex</strong> 储存数据，使用 <strong>Day.js</strong>
+            处理时间和日期，并使用<strong> TypeScript</strong> 语言写法
           </p>
         </li>
         <li>
           <header>
-            <h3>旺财记账</h3>
+            <h3>王冠首页</h3>
             <span>
-              <a href="#">源码私有</a>
-              <a href="#">项目预览</a>
+              <a href="https://github.com/KCVO1995/nav" target="blank">源码链接</a>
+              <a href="https://kcvo.top/nav/dist/" target="blank">项目预览</a>
             </span>
           </header>
+          <img src="./images/nav.png" width="600px" class="view" style="margin: 0 auto;display: block;">
           <p>
-            一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
-          </p>
-
-          <p>
-            这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
-            而且可以通过图表查看自己的消费习惯。
+            这是一个基于 <strong>jQuery</strong> 单页面应用。
           </p>
           <p>
-            该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
+            一个简洁易用的前航页面，可选多个搜索引擎，支持Tab 一键切换，支持收藏页面的新建和删除，<strong>响应式布局</strong>，移动端和pc 端都可使用。
           </p>
         </li>
       </ol>
     </section>
-
-
-
-
-
     <section class="skills">
       <h2>技能</h2>
       <div class="wrapper">
         <div id="skills"></div>
         <ul>
-          <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong> </li>
-          <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-          <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-          <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Redux 等</li>
-          <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+          <li>熟悉页面制作技巧，能将设计稿 <strong>完美还原</strong> </li>
+          <li>熟练掌握 <strong>Vue全家桶</strong> 的使用，包括 VueCli、VueRouter、Vuex 等</li>
+          <li>熟悉 ES6，包括 let / Promise / 析构赋值等</li>
           <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
           <li>了解 <strong>Webpack 的配置和优化</strong></li>
         </ul>
       </div>
     </section>
-
-
-
     <section class="openSource">
       <h2>开源项目</h2>
       <ul>
         <li>
           <header>
             <h3>自己写的 DOM 库</h3>
-            <a href="#">源码链接</a>
+            <a href="https://github.com/KCVO1995/dom-encapsulation-jQuery" target="blank">源码链接</a>
           </header>
-          <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
+          <p>实现了元素选择、元素创建、<strong>事件委托</strong> 等常见功能</p>
         </li>
         <li class="page2">
           <header>
-            <h3>会动的哆啦A梦</h3>
+            <h3>会动的米奇老鼠</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="https://fangyinghang.com/make-a-pikachu/">项目预览</a>
+              <a href="https://github.com/KCVO1995/Mickey-Mouse" target="blank">源码链接</a>
+              <a href="https://kcvo.top/Mickey-Mouse/dist/" target="blank">项目预览</a>
             </span>
           </header>
           <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
@@ -389,71 +364,49 @@
           <header>
             <h3>简易画板</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
+              <a href="https://github.com/KCVO1995/canvas-demo" target="blank">源码链接</a>
+              <a href="https://kcvo.top/canvas-demo/index.html" target="blank">项目预览</a>
             </span>
           </header>
           <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
         </li>
       </ul>
     </section>
-
-
-
     <section class="jobs">
       <h2>工作经历</h2>
       <ol>
         <li>
           <header>
-            <h3> 彩云工作室 </h3>
-            <h4>全栈开发工程师（Ruby+JS）</h4>
-            <span><time>2017年1月</time>~<time>2018年1月</time></span>
+            <h3> 昊志机电有限公司 </h3>
+            <h4>机械设计工程师</h4>
+            <span><time>2018年6月</time>~<time>2019年6月</time></span>
           </header>
           <ul>
             <li>
-              独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作
-            </li>
-            <li>
-              负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上
-            </li>
-            <li>
-              作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率
+              负责电主轴的开发和研究工作
             </li>
           </ul>
         </li>
-        <li>
-          <header>
-            <h3>哦外巴巴集团杭州总部</h3>
-            <h4>开发工程师</h4>
-            <span><time>2015年1月</time>~<time>2017年1月</time></span>
-          </header>
-          <ul>
-            <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>
-            <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>
-            <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>
-          </ul>
-        </li>
-      </ol>
     </section>
 
     <section class="others">
       <h2>其他链接</h2>
       <ul>
-        <li><a href="https://www.zhihu.com/people/zhihusucks/posts/posts_by_votes">我的博客</a>，目前已有 21 篇技术文章</li>
-        <li><a href="https://github.com/frankfang">我的 GitHub</a>，过去三个月有 200 次提交</li>
+        <li><a href="http://kcvo.top/">我的博客</a>，目前已有 21 篇技术文章</li>
+        <li><a href="https://github.com/KCVO1995">我的 GitHub</a>，过去三个月有 600 次提交</li>
       </ul>
     </section>
 
     <section class="education">
       <h2>教育经历</h2>
       <p>
-        <span><time>2008年</time>~<time>2012年</time></span>
-        关山口职业技术学校 软件学院 本科</p>
+        <span><time>2013年</time>~<time>2017年</time></span>
+        广东工业大学华立学院 材料成型及控制工程 本科</p>
     </section>
 
   </article>
   <script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
-  <script src="./main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
