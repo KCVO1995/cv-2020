@@ -15,7 +15,7 @@ var option = {
             }
         },
         indicator: [
-            { name: '静态页面', max: 100 },
+            { name: '静态页面', max: 100,},
             { name: '编程基础', max: 100 },
             { name: 'Vue', max: 100 },
             { name: 'JavaScript', max: 100 },
@@ -26,7 +26,9 @@ var option = {
     series: [{
         name: 'skill',
         type: 'radar',
-        // areaStyle: {normal: {}},
+        lineStyle: {
+          color: ['#00bcd4']
+        },
         data: [
             {
                 value: [100, 70, 90, 80, 85, 70],
