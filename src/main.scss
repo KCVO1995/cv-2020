@@ -62,7 +62,7 @@ article {
       padding: 0;
       .view {display: none;}
       > li {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         > header {display: flex;justify-content: space-between;}
         > .overview {margin: 8px 0;font-weight: bold;}
         > ul {
@@ -81,9 +81,8 @@ article {
     display: flex;
     justify-content: space-between;
     > ul {
-      max-width: 410px;
       list-style-type: disc;
-      padding-top: 10px;
+      padding: 15px 0;
       margin-left: 20px;
       > li {line-height: 1.2;margin-bottom: 8px;}
     }
@@ -91,6 +90,7 @@ article {
       width: 330px;
       height: 270px;
       margin: auto 0;
+      display: none;
     }
   }
   .openSource {
@@ -132,6 +132,10 @@ article {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      > p {
+        display: block;
+        width: 200px;
+      }
     }
   }
 
@@ -145,10 +149,12 @@ article {
   .bio img {display: none;}
   .skills .wrapper {flex-direction: column;justify-content: center;}
   #skills {width: auto;}
-  .jobs header {flex-direction: column;}
-  .jobs header > h3,
-  .jobs header > h4,
-  .jobs header > span {margin: 0;}
+  .education {
+    > ul > li {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 }
 
 
