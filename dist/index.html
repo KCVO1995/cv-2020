@@ -1,235 +1,28 @@
-<!DOCTYPE html>
-<html lang="zh">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-  <title>我的简历</title>
-  <link rel="stylesheet" href="/main.39afc03c.css">
-
-  <style media="print">body {margin: 0;}
-    article {min-height: 59.4cm;}</style>
-<script src="/main.39afc03c.js"></script></head>
-
-<body>
-<article>
-  <section class="bio">
-    <h1>李彦辉</h1>
-    <img src="/img.065dbbc8.jpg" alt="" width="80px">
-    <p>13662463430 | 943514589@qq.com</p>
-    <p>微信：KCVO1995 | 25岁 | 广州</p>
-    <p>求职意向：<strong>前端工程师</strong> | 本科</p>
-  </section>
-
-  <section class="skills">
-    <h2>技能</h2>
-    <hr>
-    <div class="wrapper">
-      <div id="skills" class="x"></div>
-      <ul>
-        <li>熟悉使用 HTML5 标签，能够编写具有 <strong>语义化</strong> 的页面</li>
-        <li>熟悉页面制作技巧，具有 <strong>像素级</strong> 还原设计稿能力，具有 <strong>平均水准之上</strong> 的审美，最求设计的优雅</li>
-        <li>熟悉掌握原生 JavaScript，ES6+ 语法，掌握重要概念如：<strong>原型链、闭包、作用域链、面向对象、this、Ajax、JSONP、跨域、Promise</strong> </li>
-        <li>熟悉 Vue 框架的使用，理解重要概念如：<strong>生命周期、响应式原理、计算属性、监听器、插槽</strong> 等，以及 <strong>Vue 全家桶</strong> 的使用，包括 <strong>Vue Cli、VueRouter、Vuex</strong> 等</li>
-        <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
-        <li>了解 <strong>Webpack 的配置和优化</strong></li>
-        <li>有 node.js 的使用经验</li>
-        <li>掌握 Git/GitHub 工作处理流程</li>
-        <li>善于面向 Google 及 StackOverflow 编程，拥有总结书写<strong>技术博客的习惯</strong>(<a href="https://kcvo.top" target="_blank">点击进入</a>)</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="projects">
-    <h2>项目经历</h2>
-    <hr>
-    <ol>
-      <li>
-        <header>
-          <h3><a href="https://kcvo.top/clock-ui-yarn/" target="_blank">Clock UI</a></h3>
-          <span>
-            <a href="https://github.com/KCVO1995/clock-ui-yarn" target="_blank">源代码</a>
-            <a href="https://kcvo.top/clock-ui-yarn/" target="_blank">预览</a>
-            <a href="https://kcvo.top/clock-ui-yarn/" target="_blank">思路与经验</a>
-          </span>
-        </header>
-        <p class="overview">
-          一款基于 <strong>Vue</strong> 的 UI 框架
-        </p>
-        <p>
-          参考了 <strong> UI、 Ant Design、Bootstrap </strong> 等优秀 UI 框架,
-          从用例分析开，提供了包括按钮、输入框、栅格布局、默认布局、弹出信息、分组标签、气泡卡片和折叠面板等多个常用组件，组件提供多种 <strong>自定义属性</strong> ,
-          比如自定义气泡卡片的触发方式、标签的排列方向、折叠面板的显示方向等，用户可以 <strong>按需引入</strong>。此外，本框架除了考虑了自身组件在PC 端和
-          移动端的样式逻辑之外，还提供了 <strong>响应式的网格系统</strong>。
-        </p>
-        <p>
-          本项目，使用 <strong>Sass</strong> 编写默认样式，引入
-          <strong>Mocha、Chai、Sino、Vue Test Utils</strong> 编写单元测试, <strong>Travis
-          CI</strong> 进行持续集成，最后使用 <strong>npm</strong> 发布组件，<strong>vuepress</strong> 编写官网。
-        </p>
-        <ul class="details">
-          <li>技术栈: Vue.js | Vue Cli | Vue Test Utils | Vuepress | Mocha | Chai | Sinon | npm | yarn</li>
-<!--          <li><a href="https://github.com/KCVO1995/clock-ui-yarn" target="_blank">源代码</a>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <a href="https://kcvo.top/clock-ui-yarn/" target="_blank">预览</a>-->
-<!--          </li>-->
-<!--          <li>思路与经验: 正在整理中</li>-->
-        </ul>
-      </li>
-      <li>
-        <header>
-          <h3><a href="https://kcvo.top/morney-website/#/">米奇记账</a></h3>
-          <span>
-          <a href="https://github.com/KCVO1995/money" target="_blank">源代码</a>
-            <a href="https://kcvo.top/morney-website/#/home" target="_blank">预览</a>
-            <a href="https://kcvo.top/2020/money/" target="_blank">思路与经验</a>
-          </span>
-        </header>
-        <p class="overview">
-          一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面应用
-        </p>
-        <p>
-          简约的 UI 设计，支持账目增删改查，标签管理及新建，数据直观显示，支持按月、按周、按天展示。
-        </p>
-        <p>
-          项目使用 <strong>Vue Cli</strong> 搭建，通过 <strong>Vue
-          Router</strong> 来进行页面的跳转，并带有生动的过渡效果，使用 <strong>Vuex</strong> 储存数据，使用 <strong>Day.js</strong>
-          处理时间和日期，并使用<strong> TypeScript</strong> 语言写法。
-        </p>
-        <ul class="details">
-          <li>技术栈: Vue.js | Vue Cli | Vue Router | Sass | TypeScript | Dayjs</li>
-<!--          <li><a href="https://github.com/KCVO1995/money" target="_blank">源代码</a>-->
-<!--            : https://github.com/KCVO1995/money-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <a href="https://kcvo.top/morney-website/#/home" target="_blank">预览</a>-->
-<!--            : https://kcvo.top/morney-website/#/home-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <a href="https://kcvo.top/2020/money/" target="_blank">思路与经验</a>-->
-<!--            : https://kcvo.top/2020/money/</li>-->
-        </ul>
-      </li>
-      <li>
-        <header>
-         <h3><a href="https://kcvo.top/nav/dist/">王冠首页</a></h3>
-          <span>
-
-          <a href="https://github.com/KCVO1995/nav" target="_blank">源代码</a>
-            <a href="https://kcvo.top/nav/dist/" target="_blank">预览</a>
-            <a href="https://kcvo.top/nav/dist/" target="_blank">思路与经验</a>
-          </span>
-        </header>
-        <p class="overview">
-          这是一个基于 <strong>jQuery</strong> 单页面应用
-        </p>
-        <p>
-          一个简洁易用的前航页面，可选多个搜索引擎，支持 Tab 一键切换，支持收藏页面的新建和删除，支持<strong>响应式布局</strong>，移动端和pc 端都可使用。
-        </p>
-        <p>使用 <strong>jQuery</strong> 进行 DOM 的操作，使用 <strong>正则表达式</strong> 格式化网站地址，引入多个 <strong>SVG</strong> 图标进行润色。</p>
-        <ul>
-          <li>技术栈: JavaScript ES6+ | jQuery | parcel | 正则表达式 </li>
-<!--          <li><a href="https://github.com/KCVO1995/nav" target="_blank">源代码</a>-->
-<!--           : https://github.com/KCVO1995/nav-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <a href="https://kcvo.top/nav/dist/" target="_blank">预览</a>-->
-<!--           : https://kcvo.top/nav/dist/-->
-<!--          </li>-->
-<!--          <li>思路与经验: 正在整理中</li>-->
-        </ul>
-      </li>
-    </ol>
-  </section>
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>我的简历</title><link rel="stylesheet" href="main.3d54b997.css"><style media="print">body{margin:0}article{min-height:59.4cm}</style></head><body>
+<article> <section class="bio"> <h1>李彦辉</h1> <img src="img.39aed195.jpg" alt="" width="80px"> <p>13662463430 | 943514589@qq.com</p> <p>微信：KCVO1995 | 25岁 | 广州</p> <p>求职意向：<strong>前端工程师</strong> | 本科</p> </section> <section class="skills"> <h2>技能</h2> <hr> <div class="wrapper"> <div id="skills" class="x"></div> <ul> <li>熟悉使用 HTML5 标签，能够编写具有 <strong>语义化</strong> 的页面</li> <li>熟悉页面制作技巧，具有 <strong>像素级</strong> 还原设计稿能力，具有 <strong>平均水准之上</strong> 的审美，最求设计的优雅</li> <li>熟悉掌握原生 JavaScript，ES6+ 语法，掌握重要概念如：<strong>原型链、闭包、作用域链、面向对象、this、Ajax、JSONP、跨域、Promise</strong> </li> <li>熟悉 Vue 框架的使用，理解重要概念如：<strong>生命周期、响应式原理、计算属性、监听器、插槽</strong> 等，以及 <strong>Vue 全家桶</strong> 的使用，包括 <strong>Vue Cli、VueRouter、Vuex</strong> 等</li> <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li> <li>了解 <strong>Webpack 的配置和优化</strong></li> <li>有 node.js 的使用经验</li> <li>掌握 Git/GitHub 工作处理流程</li> <li>善于面向 Google 及 StackOverflow 编程，拥有总结书写<strong>技术博客的习惯</strong>(<a href="https://kcvo.top" target="_blank">点击进入</a>)</li> </ul> </div> </section> <section class="projects"> <h2>项目经历</h2> <hr> <ol> <li> <header> <h3><a href="https://kcvo.top/clock-ui-yarn/" target="_blank">Clock UI</a></h3> <span> <a href="https://github.com/KCVO1995/clock-ui-yarn" target="_blank">源代码</a> <a href="https://kcvo.top/clock-ui-yarn/" target="_blank">预览</a> <a href="https://kcvo.top/clock-ui-yarn/" target="_blank">思路与经验</a> </span> </header> <p class="overview"> 一款基于 <strong>Vue</strong> 的 UI 框架 </p> <p> 参考了 <strong> UI、 Ant Design、Bootstrap </strong> 等优秀 UI 框架, 从用例分析开，提供了包括按钮、输入框、栅格布局、默认布局、弹出信息、分组标签、气泡卡片和折叠面板等多个常用组件，组件提供多种 <strong>自定义属性</strong> , 比如自定义气泡卡片的触发方式、标签的排列方向、折叠面板的显示方向等，用户可以 <strong>按需引入</strong>。此外，本框架除了考虑了自身组件在PC 端和 移动端的样式逻辑之外，还提供了 <strong>响应式的网格系统</strong>。 </p> <p> 本项目，使用 <strong>Sass</strong> 编写默认样式，引入 <strong>Mocha、Chai、Sino、Vue Test Utils</strong> 编写单元测试, <strong>Travis CI</strong> 进行持续集成，最后使用 <strong>npm</strong> 发布组件，<strong>vuepress</strong> 编写官网。 </p> <ul class="details"> <li>技术栈: Vue.js | Vue Cli | Vue Test Utils | Vuepress | Mocha | Chai | Sinon | npm | yarn</li>
 
 
 
 
 
-  <section class="openSource">
-    <h2>开源项目</h2>
-    <hr>
-    <ul>
-      <li>
-        <header>
-          <h3><a href="https://github.com/KCVO1995/dom-encapsulation-jQuery" target="_blank">自己写的 DOM 库</a></h3>
-          <a href="https://github.com/KCVO1995/dom-encapsulation-jQuery" target="blank">源码链接</a>
-        </header>
-        <p>实现了元素选择、元素创建、<strong>事件委托</strong> 等常见功能。</p>
-      </li>
-      <li>
-        <header>
-          <h3><a href="https://kcvo.top/canvas-demo/index.html" target="_blank">灵魂画板</a></h3>
-          <span>
-          <a href="https://kcvo.top/canvas-demo" target="blank">预览地址</a>
-          <a href="https://github.com/KCVO1995/canvas-demo" target="blank">源码链接</a>
-          </span>
-        </header>
-        <p>我在学习 <strong>Canvas</strong> 时做的一个小作品，灵魂画家专属，哈哈。</p>
-      </li>
-      <li class="contain-img">
-        <header>
-          <h3><a href="https://kcvo.top/Mickey-Mouse/dist/" target="_blank">CSS 画一个米奇老鼠</a></h3>
-          <span>
-          <a href="https://kcvo.top/Mickey-Mouse/dist/" target="blank">预览地址</a>
-          <a href="https://github.com/KCVO1995/Mickey-Mouse" target="blank">源码链接</a>
-          </span>
-        </header>
-        <div class="p-img">
-          <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品，会动的代码，一步一步画出米奇。</p>
-          <img src="/mk.fb12162b.png" alt="预览图片">
-        </div>
-      </li>
-      <li class="contain-img">
-        <header>
-          <h3><a href="https://kcvo.top/clock-demo/src/index.html" target="_blank">Clock-demo</a></h3>
-          <span>
-          <a href="https://kcvo.top/clock-demo/src/index.html" target="blank">预览地址</a>
-          <a href="https://github.com/KCVO1995/clock-demo" target="blank">源码链接</a>
-          </span>
-        </header>
-        <div class="p-img">
-          <p>通过 <strong>原生JavaScript和CSS</strong> 制作的一个可爱的时钟，可以切换时区。</p>
-          <img src="/clock.903ff57b.png" alt="预览图片">
-        </div>
-      </li>
-    </ul>
-  </section>
+ </ul> </li> <li> <header> <h3><a href="https://kcvo.top/morney-website/#/">米奇记账</a></h3> <span> <a href="https://github.com/KCVO1995/money" target="_blank">源代码</a> <a href="https://kcvo.top/morney-website/#/home" target="_blank">预览</a> <a href="https://kcvo.top/2020/money/" target="_blank">思路与经验</a> </span> </header> <p class="overview"> 一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面应用 </p> <p> 简约的 UI 设计，支持账目增删改查，标签管理及新建，数据直观显示，支持按月、按周、按天展示。 </p> <p> 项目使用 <strong>Vue Cli</strong> 搭建，通过 <strong>Vue Router</strong> 来进行页面的跳转，并带有生动的过渡效果，使用 <strong>Vuex</strong> 储存数据，使用 <strong>Day.js</strong> 处理时间和日期，并使用<strong> TypeScript</strong> 语言写法。 </p> <ul class="details"> <li>技术栈: Vue.js | Vue Cli | Vue Router | Sass | TypeScript | Dayjs</li>
 
-  <section class="others">
-    <h2>其他链接</h2>
-    <hr>
-    <ul>
-      <li><a href="http://kcvo.top/" target="_blank">我的博客</a> - 目前已有 20+ 篇技术文章</li>
-      <li><a href="https://github.com/KCVO1995" target="_blank">我的 GitHub</a> - 过去三个月有 600+ 次提交</li>
-    </ul>
-  </section>
 
-  <section class="education">
-    <h2>教育及工作经历</h2>
-    <hr>
-    <ul>
-      <li>
-        <h3>广东工业大学华立学院</h3>
-        <p>材料成型及控制工程 - 本科</p>
-        <span><time>2013年9月</time> ~ <time>2017年6月</time></span>
-      </li>
-      <li>
-        <h3>广州麦凯斯电子技术有限公司</h3>
-        <p>结构工程师</p>
-        <span><time>2017年7月</time> ~ <time>2018年6月</time></span>
-      </li>
-      <li>
-        <h3>广州昊志机电有限公司</h3>
-        <p>机械设计工程师</p>
-        <span><time>2018年6月</time> ~ <time>2019年6月</time></span>
-      </li>
-    </ul>
-  </section>
 
-</article>
-<script src="/main.1f19ae8e.js"></script>
-</body>
 
-</html>
+
+
+
+
+
+ </ul> </li> <li> <header> <h3><a href="https://kcvo.top/nav/dist/">王冠首页</a></h3> <span> <a href="https://github.com/KCVO1995/nav" target="_blank">源代码</a> <a href="https://kcvo.top/nav/dist/" target="_blank">预览</a> <a href="https://kcvo.top/nav/dist/" target="_blank">思路与经验</a> </span> </header> <p class="overview"> 这是一个基于 <strong>jQuery</strong> 单页面应用 </p> <p> 一个简洁易用的前航页面，可选多个搜索引擎，支持 Tab 一键切换，支持收藏页面的新建和删除，支持<strong>响应式布局</strong>，移动端和pc 端都可使用。 </p> <p>使用 <strong>jQuery</strong> 进行 DOM 的操作，使用 <strong>正则表达式</strong> 格式化网站地址，引入多个 <strong>SVG</strong> 图标进行润色。</p> <ul> <li>技术栈: JavaScript ES6+ | jQuery | parcel | 正则表达式 </li>
+
+
+
+
+
+
+
+ </ul> </li> </ol> </section> <section class="openSource"> <h2>开源项目</h2> <hr> <ul> <li> <header> <h3><a href="https://github.com/KCVO1995/dom-encapsulation-jQuery" target="_blank">自己写的 DOM 库</a></h3> <a href="https://github.com/KCVO1995/dom-encapsulation-jQuery" target="blank">源码链接</a> </header> <p>实现了元素选择、元素创建、<strong>事件委托</strong> 等常见功能。</p> </li> <li> <header> <h3><a href="https://kcvo.top/canvas-demo/index.html" target="_blank">灵魂画板</a></h3> <span> <a href="https://kcvo.top/canvas-demo" target="blank">预览地址</a> <a href="https://github.com/KCVO1995/canvas-demo" target="blank">源码链接</a> </span> </header> <p>我在学习 <strong>Canvas</strong> 时做的一个小作品，灵魂画家专属，哈哈。</p> </li> <li class="contain-img"> <header> <h3><a href="https://kcvo.top/Mickey-Mouse/dist/" target="_blank">CSS 画一个米奇老鼠</a></h3> <span> <a href="https://kcvo.top/Mickey-Mouse/dist/" target="blank">预览地址</a> <a href="https://github.com/KCVO1995/Mickey-Mouse" target="blank">源码链接</a> </span> </header> <div class="p-img"> <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品，会动的代码，一步一步画出米奇。</p> <img src="mk.252efb13.png" alt="预览图片"> </div> </li> <li class="contain-img"> <header> <h3><a href="https://kcvo.top/clock-demo/src/index.html" target="_blank">Clock-demo</a></h3> <span> <a href="https://kcvo.top/clock-demo/src/index.html" target="blank">预览地址</a> <a href="https://github.com/KCVO1995/clock-demo" target="blank">源码链接</a> </span> </header> <div class="p-img"> <p>通过 <strong>原生JavaScript和CSS</strong> 制作的一个可爱的时钟，可以切换时区。</p> <img src="clock.ecfff595.png" alt="预览图片"> </div> </li> </ul> </section> <section class="others"> <h2>其他链接</h2> <hr> <ul> <li><a href="http://kcvo.top/" target="_blank">我的博客</a> - 目前已有 20+ 篇技术文章</li> <li><a href="https://github.com/KCVO1995" target="_blank">我的 GitHub</a> - 过去三个月有 600+ 次提交</li> </ul> </section> <section class="education"> <h2>教育及工作经历</h2> <hr> <ul> <li> <h3>广东工业大学华立学院</h3> <p>材料成型及控制工程 - 本科</p> <span><time>2013年9月</time> ~ <time>2017年6月</time></span> </li> <li> <h3>广州麦凯斯电子技术有限公司</h3> <p>结构工程师</p> <span><time>2017年7月</time> ~ <time>2018年6月</time></span> </li> <li> <h3>广州昊志机电有限公司</h3> <p>机械设计工程师</p> <span><time>2018年6月</time> ~ <time>2019年6月</time></span> </li> </ul> </section> </article>
+<script src="main.f1e0d8d7.js"></script>
+</body></html>

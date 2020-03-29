@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +72,34 @@
       <workItem from="1584960760629" duration="13722000" />
       <workItem from="1585017358004" duration="12792000" />
       <workItem from="1585114262770" duration="41000" />
-      <workItem from="1585484474870" duration="240000" />
+      <workItem from="1585484474870" duration="561000" />
     </task>
+    <task id="LOCAL-00001" summary="重新部署">
+      <created>1585484760747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585484760747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重新部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新部署" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1157" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584177420712">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1157" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1584177420712" />
+    <state x="1090" y="85" key="CommitChangelistDialog2" timestamp="1585484759226">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1090" y="85" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1585484759226" />
     <state x="1037" y="350" key="EditFileWatcherDialog" timestamp="1585484697127">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
