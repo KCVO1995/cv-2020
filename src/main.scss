@@ -107,9 +107,16 @@ article {
       > .p-img {
         display: flex;
         justify-content: space-between;
+        &.clock {
+          > img {
+            height: 88px;
+          }
+        }
         > img {
           width: 80px;
+          height: 80px;
           border-radius: 3px;
+
         }
       }
     }
