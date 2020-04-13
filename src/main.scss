@@ -62,9 +62,17 @@ article {
       padding: 0;
       .view {display: none;}
       > li {
+        position: relative;
         margin-bottom: 15px;
         > header {display: flex;justify-content: space-between;}
         > .overview {margin: 8px 0;font-weight: bold;}
+        > .qr-code {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 80px;
+          height: 80px;
+        }
         > ul {
           list-style-type: disc;
           padding-left: 20px;
@@ -116,7 +124,6 @@ article {
           width: 80px;
           height: 80px;
           border-radius: 3px;
-
         }
       }
     }

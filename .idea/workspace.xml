@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tomatodo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/clock.903ff57b.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/clock.903ff57b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/money1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/money2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/money3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/money4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/nav.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +51,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomatodo" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Web\cv-2020\src\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Web\cv-2020\src\images" />
       <recent name="G:\Web\cv-2020" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Web\cv-2020\src\images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -76,6 +96,8 @@
       <workItem from="1585492392526" duration="2035000" />
       <workItem from="1586373564441" duration="2010000" />
       <workItem from="1586426165832" duration="14000" />
+      <workItem from="1586428274020" duration="263000" />
+      <workItem from="1586766040316" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -136,10 +158,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1037" y="350" key="EditFileWatcherDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1585484697127" />
-    <state x="1265" y="332" key="FileChooserDialogImpl" timestamp="1586426178194">
+    <state x="1265" y="332" key="FileChooserDialogImpl" timestamp="1586767488468">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1265" y="332" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1586426178194" />
+    <state x="1265" y="332" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1586767488468" />
     <state x="1082" y="219" key="SettingsEditor" timestamp="1585484712977">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

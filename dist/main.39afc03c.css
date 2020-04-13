@@ -86,6 +86,7 @@ article .projects > ol .view {
   display: none;
 }
 article .projects > ol > li {
+  position: relative;
   margin-bottom: 15px;
 }
 article .projects > ol > li > header {
@@ -95,6 +96,13 @@ article .projects > ol > li > header {
 article .projects > ol > li > .overview {
   margin: 8px 0;
   font-weight: bold;
+}
+article .projects > ol > li > .qr-code {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
 }
 article .projects > ol > li > ul {
   list-style-type: disc;
