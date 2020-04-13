@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/money.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tomatodo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/clock.903ff57b.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/clock.903ff57b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/money1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/money2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/money3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/money4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/nav.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/nav.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +75,7 @@
       <workItem from="1586373564441" duration="2010000" />
       <workItem from="1586426165832" duration="14000" />
       <workItem from="1586428274020" duration="263000" />
-      <workItem from="1586766040316" duration="2210000" />
+      <workItem from="1586766040316" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -134,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585492626539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加二维码">
+      <created>1586768302222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586768302222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重新部署" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="增加二维码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加二维码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1157" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584177420712">
