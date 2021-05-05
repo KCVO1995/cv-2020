@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +36,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomatodo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,6 +75,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,6 +97,9 @@
       <workItem from="1586426165832" duration="14000" />
       <workItem from="1586428274020" duration="263000" />
       <workItem from="1586766040316" duration="3027000" />
+      <workItem from="1620198474535" duration="2552000" />
+      <workItem from="1620210514353" duration="90000" />
+      <workItem from="1620210860503" duration="4082000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -121,50 +143,24 @@
       <option name="project" value="LOCAL" />
       <updated>1586768302222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: 修改 scripts">
+      <created>1620198956636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620198956636</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重新部署" />
     <MESSAGE value="update" />
     <MESSAGE value="增加二维码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加二维码" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1157" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584177420712">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1157" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1584177420712" />
-    <state x="1090" y="85" key="CommitChangelistDialog2" timestamp="1586768300301">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1090" y="85" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1586768300301" />
-    <state x="1037" y="350" key="EditFileWatcherDialog" timestamp="1585484697127">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1037" y="350" key="EditFileWatcherDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1585484697127" />
-    <state x="1265" y="332" key="FileChooserDialogImpl" timestamp="1586767488468">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1265" y="332" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1586767488468" />
-    <state x="1082" y="219" key="SettingsEditor" timestamp="1585484712977">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1082" y="219" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1585484712977" />
-    <state x="1170" y="300" width="732" height="558" key="find.popup" timestamp="1584974451348">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1170" y="300" width="732" height="558" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1584974451348" />
-    <state x="1233" y="272" key="run.anything.popup" timestamp="1584980258891">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1233" y="272" key="run.anything.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1584980258891" />
-    <state x="1198" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1586373976299">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1198" y="258" width="672" height="678" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1586373976299" />
+    <MESSAGE value="feat: 修改 scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改 scripts" />
   </component>
 </project>
