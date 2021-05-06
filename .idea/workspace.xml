@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +96,7 @@
       <workItem from="1620210514353" duration="90000" />
       <workItem from="1620210860503" duration="4082000" />
       <workItem from="1620227170011" duration="4373000" />
-      <workItem from="1620264907803" duration="2235000" />
+      <workItem from="1620264907803" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -176,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620270124453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 移动端适配">
+      <created>1620270685597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620270685597</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +189,7 @@
     <MESSAGE value="feat: 修改了项目介绍部分" />
     <MESSAGE value="feat: 大幅度修改" />
     <MESSAGE value="feat: 细节修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 细节修改" />
+    <MESSAGE value="feat: 移动端适配" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 移动端适配" />
   </component>
 </project>
