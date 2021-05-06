@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/cv.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
@@ -13,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cv.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cv.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
     </list>
@@ -110,7 +110,7 @@
       <workItem from="1620210514353" duration="90000" />
       <workItem from="1620210860503" duration="4082000" />
       <workItem from="1620227170011" duration="4373000" />
-      <workItem from="1620264907803" duration="119000" />
+      <workItem from="1620264907803" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620232642828</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 大幅度修改">
+      <created>1620267609894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620267609894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="增加二维码" />
     <MESSAGE value="feat: 修改 scripts" />
     <MESSAGE value="feat: 修改了项目介绍部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改了项目介绍部分" />
+    <MESSAGE value="feat: 大幅度修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 大幅度修改" />
   </component>
 </project>
