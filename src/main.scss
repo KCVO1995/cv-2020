@@ -4,10 +4,15 @@ $pColor: #333;
 
 //#42b983
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 
-body {background: #eee;margin: 20px 0;}
+body {
+  background: #eee;
+  margin: 20px 0;
+}
 
 ol,
 ul {
@@ -17,17 +22,37 @@ ul {
   color: $pColor;
 }
 
-hr {background-color: $color;height: 1px;border: none;}
+hr {
+  background-color: $color;
+  height: 1px;
+  border: none;
+}
 
-p {color: $pColor;margin: .3em 0;}
+p {
+  color: $pColor;
+  margin: .3em 0;
+}
 
-h1 {font-size: 25px;margin: 0 0 10px 0;}
+h1 {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+}
 
-h2 {color: $color;margin: 0 0 10px 0;font-weight: normal;}
+h2 {
+  color: $color;
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
 
-h3 {color: $pColor;margin: 0;}
+h3 {
+  color: $pColor;
+  margin: 0;
+}
 
-h6 {margin: 0;font-weight: normal;}
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
 
 a {
   color: $pColor;
@@ -35,7 +60,10 @@ a {
   border-bottom: 1px solid;
 }
 
-strong {font-weight: normal;color: $color;}
+strong {
+  font-weight: normal;
+  color: $color;
+}
 
 
 article {
@@ -44,32 +72,46 @@ article {
   margin: 0 auto;
   overflow: auto;
   padding: 1em;
+
   > .bio {
     text-align: center;
     position: relative;
+
     > p {
       font-size: 14px;
     }
+
     > img {
       position: absolute;
       top: 0;
       right: 0;
     }
   }
+
   .work-experience {
     > ul {
       margin-top: 0;
       list-style-position: inside;
       padding: 0;
-      .view {display: none;}
+
+      .view {
+        display: none;
+      }
+
       > li {
         position: relative;
         margin-bottom: 15px;
-        > header {display: flex;justify-content: space-between;}
+
+        > header {
+          display: flex;
+          justify-content: space-between;
+        }
+
         > ul {
           list-style-type: disc;
           padding-left: 20px;
           margin-top: 10px;
+
           > li {
             margin-bottom: 3px;
           }
@@ -77,17 +119,31 @@ article {
       }
     }
   }
+
   .projects {
     > ol {
       margin-top: 0;
       list-style-position: inside;
       padding: 0;
-      .view {display: none;}
+
+      .view {
+        display: none;
+      }
+
       > li {
         position: relative;
         margin-bottom: 15px;
-        > header {display: flex;justify-content: space-between;}
-        > .overview {margin: 8px 0;font-weight: bold;}
+
+        > header {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        > .overview {
+          margin: 8px 0;
+          font-weight: bold;
+        }
+
         > .qr-code {
           position: absolute;
           bottom: 0;
@@ -95,13 +151,16 @@ article {
           width: 80px;
           height: 80px;
         }
+
         &:first-child {
           margin-top: 18px;
         }
+
         > ul {
           list-style-type: disc;
           padding-left: 20px;
           margin-top: 10px;
+
           > li {
             margin-bottom: 3px;
           }
@@ -113,12 +172,18 @@ article {
   .skills > .wrapper {
     display: flex;
     justify-content: space-between;
+
     > ul {
       list-style-type: disc;
       padding: 15px 0;
       margin-left: 20px;
-      > li {line-height: 1.2;margin-bottom: 8px;}
+
+      > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
     }
+
     > .x {
       width: 330px;
       height: 270px;
@@ -126,26 +191,33 @@ article {
       display: none;
     }
   }
+
   .openSource {
     display: none;
+
     > ul > li {
       margin-bottom: 10px;
+
       &.contain-img {
         margin-bottom: 0;
       }
+
       > header {
         position: relative;
         display: flex;
         justify-content: space-between;
       }
+
       > .p-img {
         display: flex;
         justify-content: space-between;
+
         &.clock {
           > img {
             height: 88px;
           }
         }
+
         > img {
           width: 80px;
           height: 80px;
@@ -154,21 +226,26 @@ article {
       }
     }
   }
+
   .others {
     > .container {
       display: flex;
       justify-content: space-between;
+
       .right {
         text-align: center;
+
         .qr-code {
           width: 80px;
           height: 80px;
         }
+
         p {
           margin: 0;
           font-size: 12px;
         }
       }
+
       > ul {
         > li {
           > a {
@@ -180,13 +257,19 @@ article {
       }
     }
   }
+
   .education {
     display: none;
-    > h2 {margin-top: 15px;}
+
+    > h2 {
+      margin-top: 15px;
+    }
+
     > ul > li {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       > p {
         display: block;
         width: 200px;
@@ -198,12 +281,40 @@ article {
 
 
 @media (max-width: 500px) {
-  body {margin: 0;}
-  .view {display: none;}
-  article {width: auto;height: auto;}
-  .bio img {display: none;}
-  .skills .wrapper {flex-direction: column;justify-content: center;}
-  #skills {width: auto;}
+  body {
+    margin: 0;
+  }
+  .view {
+    display: none;
+  }
+  article {
+    width: auto;
+    height: auto;
+  }
+  .bio img {
+    display: none;
+  }
+  .skills .wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #skills {
+    width: auto;
+  }
+  .work-experience {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  .projects {
+    .details {
+      > li {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
   .education {
     > ul > li {
       flex-direction: column;

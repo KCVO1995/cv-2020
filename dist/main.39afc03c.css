@@ -247,6 +247,14 @@ article .education > ul > li > p {
     width: auto;
   }
 
+  .work-experience header {
+    flex-wrap: wrap;
+  }
+
+  .projects .details > li span {
+    display: none;
+  }
+
   .education > ul > li {
     flex-direction: column;
     text-align: center;
