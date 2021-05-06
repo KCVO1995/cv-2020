@@ -178,10 +178,14 @@ article .openSource > ul > li > .p-img > img {
   height: 80px;
   border-radius: 3px;
 }
+article .others > .qr-code {
+  width: 80px;
+  height: 80px;
+}
 article .others > ul > li > a {
   color: #29b6f6;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 article .education > h2 {
   margin-top: 15px;

@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/cv.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.39afc03c.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.39afc03c.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/money.ab6d3130.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/money.ab6d3130.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/money.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/money.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1Z6zbi00VBFpLd8TtO19Efqjg3f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,7 +109,8 @@
       <workItem from="1620198474535" duration="2552000" />
       <workItem from="1620210514353" duration="90000" />
       <workItem from="1620210860503" duration="4082000" />
-      <workItem from="1620227170011" duration="3421000" />
+      <workItem from="1620227170011" duration="4373000" />
+      <workItem from="1620264907803" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -152,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620198956636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 修改了项目介绍部分">
+      <created>1620232642828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620232642828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +179,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="增加二维码" />
     <MESSAGE value="feat: 修改 scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改 scripts" />
+    <MESSAGE value="feat: 修改了项目介绍部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改了项目介绍部分" />
   </component>
 </project>
