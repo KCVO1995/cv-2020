@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="">
+    <list default="true" id="76a6e245-2e00-4fac-b721-40889b2e8ca9" name="Default Changelist" comment="feat: 恢复学校经历">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1620210514353" duration="90000" />
       <workItem from="1620210860503" duration="4384000" />
       <workItem from="1621139264644" duration="264000" />
-      <workItem from="1621155004811" duration="1329000" />
+      <workItem from="1621155004811" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="重新部署">
       <created>1585484760747</created>
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620219527326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 恢复学校经历">
+      <created>1621156510342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621156510342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     <MESSAGE value="增加二维码" />
     <MESSAGE value="feat: 修改 scripts" />
     <MESSAGE value="feat: 修改技术栈和工作经验" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 修改技术栈和工作经验" />
+    <MESSAGE value="feat: 恢复学校经历" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 恢复学校经历" />
   </component>
 </project>
