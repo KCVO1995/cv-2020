@@ -134,6 +134,9 @@ article {
         position: relative;
         margin-bottom: 15px;
 
+        &:nth-child(4) {
+          display: none;
+        }
         > header {
           display: flex;
           justify-content: space-between;
@@ -259,7 +262,6 @@ article {
   }
 
   .education {
-    display: none;
 
     > h2 {
       margin-top: 15px;
