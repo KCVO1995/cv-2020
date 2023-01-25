@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+hr {
+  background-color: #29b6f6;
+  height: 1px;
+  border: none;
+}
+
+p {
+  color: #333;
+  margin: 0.3em 0;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  color: #29b6f6;
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
+
+h3 {
+  color: #333;
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+strong {
+  font-weight: normal;
+  color: #29b6f6;
+}
+
+article {
+  width: 21cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+}
+article > .bio {
+  text-align: center;
+  position: relative;
+}
+article > .bio > p {
+  font-size: 14px;
+}
+article > .bio > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+article .work-experience > ul {
+  margin-top: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+article .work-experience > ul .view {
+  display: none;
+}
+article .work-experience > ul > li {
+  position: relative;
+  margin-bottom: 15px;
+}
+article .work-experience > ul > li > header {
+  display: flex;
+  justify-content: space-between;
+}
+article .work-experience > ul > li > ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+article .work-experience > ul > li > ul > li {
+  margin-bottom: 3px;
+}
+article .projects > ol {
+  margin-top: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+article .projects > ol .view {
+  display: none;
+}
+article .projects > ol > li {
+  position: relative;
+  margin-bottom: 15px;
+}
+article .projects > ol > li:nth-child(4) {
+  display: none;
+}
+article .projects > ol > li > header {
+  display: flex;
+  justify-content: space-between;
+}
+article .projects > ol > li > .overview {
+  margin: 8px 0;
+  font-weight: bold;
+}
+article .projects > ol > li > .qr-code {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+article .projects > ol > li:first-child {
+  margin-top: 18px;
+}
+article .projects > ol > li > ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+article .projects > ol > li > ul > li {
+  margin-bottom: 3px;
+}
+article .skills > .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+article .skills > .wrapper > ul {
+  list-style-type: disc;
+  padding: 15px 0;
+  margin-left: 20px;
+}
+article .skills > .wrapper > ul > li {
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+article .skills > .wrapper > .x {
+  width: 330px;
+  height: 270px;
+  margin: auto 0;
+  display: none;
+}
+article .openSource {
+  display: none;
+}
+article .openSource > ul > li {
+  margin-bottom: 10px;
+}
+article .openSource > ul > li.contain-img {
+  margin-bottom: 0;
+}
+article .openSource > ul > li > header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+article .openSource > ul > li > .p-img {
+  display: flex;
+  justify-content: space-between;
+}
+article .openSource > ul > li > .p-img.clock > img {
+  height: 88px;
+}
+article .openSource > ul > li > .p-img > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+}
+article .others > .container {
+  display: flex;
+  justify-content: space-between;
+}
+article .others > .container .right {
+  text-align: center;
+}
+article .others > .container .right .qr-code {
+  width: 80px;
+  height: 80px;
+}
+article .others > .container .right p {
+  margin: 0;
+  font-size: 12px;
+}
+article .others > .container > ul > li > a {
+  color: #29b6f6;
+  font-weight: bold;
+  font-size: 18px;
+}
+article .education > h2 {
+  margin-top: 15px;
+}
+article .education > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article .education > ul > li > p {
+  display: block;
+  width: 200px;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  .view {
+    display: none;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    display: none;
+  }
+
+  .skills .wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #skills {
+    width: auto;
+  }
+
+  .work-experience header {
+    flex-wrap: wrap;
+  }
+
+  .projects .details > li span {
+    display: none;
+  }
+
+  .education > ul > li {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=index.81b039f6.css.map */
