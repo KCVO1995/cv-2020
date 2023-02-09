@@ -10,7 +10,8 @@ $pColor: #333;
 
 
 body {
-  background: #eee;
+  // background: #eee;
+  background: white;
   margin: 20px 0;
 }
 
@@ -35,7 +36,7 @@ p {
 
 h1 {
   font-size: 25px;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
 }
 
 h2 {
@@ -121,6 +122,7 @@ article {
   }
 
   .projects {
+    margin-bottom: 20px;
     > ol {
       margin-top: 0;
       list-style-position: inside;
@@ -168,6 +170,8 @@ article {
       }
     }
   }
+  .skills {
+  }
 
   .skills > .wrapper {
     display: flex;
@@ -175,7 +179,7 @@ article {
 
     > ul {
       list-style-type: disc;
-      padding: 15px 0;
+      // padding: 15px 0;
       margin-left: 20px;
 
       > li {
@@ -259,12 +263,23 @@ article {
   }
 
   .education {
+    .content {
+      display: flex;
+      img {
+      margin-right: 10px;
+        width: 30px;
+        height: 30px;
+      }
+    }
 
     > h2 {
       margin-top: 15px;
     }
+    ul {
+      flex: 1;
+    }
 
-    > ul > li {
+    ul > li {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -315,6 +330,13 @@ article {
     }
   }
   .education {
+    .content {
+      display: flex;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
     > ul > li {
       flex-direction: column;
       text-align: center;
