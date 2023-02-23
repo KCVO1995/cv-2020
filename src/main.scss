@@ -23,6 +23,11 @@ ul {
   color: $pColor;
 }
 
+li {
+  line-height: 1.6;
+  // margin-bottom: 8px;
+}
+
 hr {
   background-color: $color;
   height: 1px;
@@ -41,7 +46,7 @@ h1 {
 
 h2 {
   color: $color;
-  margin: 0 0 10px 0;
+  margin: 40px 0 15px 0;
   font-weight: normal;
 }
 
@@ -79,7 +84,8 @@ article {
     position: relative;
 
     > p {
-      font-size: 14px;
+      font-size: 15px;
+      font-weight: bold;
     }
 
     > img {
@@ -112,10 +118,6 @@ article {
           list-style-type: disc;
           padding-left: 20px;
           margin-top: 10px;
-
-          > li {
-            margin-bottom: 3px;
-          }
         }
       }
     }
@@ -143,7 +145,7 @@ article {
 
         > .overview {
           margin: 8px 0;
-          font-weight: bold;
+          // font-weight: bold;
         }
 
         > .qr-code {
@@ -183,8 +185,7 @@ article {
       margin-left: 20px;
 
       > li {
-        line-height: 1.2;
-        margin-bottom: 8px;
+        // margin-bottom: 8px;
       }
     }
 
@@ -200,7 +201,6 @@ article {
     display: none;
 
     > ul > li {
-      margin-bottom: 10px;
 
       &.contain-img {
         margin-bottom: 0;
