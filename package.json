@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "serve": "parcel src/index.html"
+    "serve": "npx parcel src/index.html",
+    "start": "npx parcel src/index_en.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
